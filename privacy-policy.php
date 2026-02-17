@@ -74,6 +74,32 @@
                     obligations.</li>
             </div>
             <hr />
+            <h2>Communication Preferences and Consent</h2>
+            <p>By providing your contact information and using our services, you explicitly consent to receive communications from MasihiSathi.com through the following channels:</p>
+            <div class="col-md-12">
+                <li><strong>SMS Communications:</strong> You agree to receive text messages (SMS) on the mobile number you provide. These messages may include account verification codes, security alerts, match notifications, service updates, and promotional content. Standard messaging rates may apply as per your mobile carrier plan.</li>
+                <li><strong>WhatsApp Communications:</strong> You consent to receive messages, notifications, updates, and promotional content via WhatsApp on the phone number you have registered with us. This includes text messages, media files, and interactive content.</li>
+                <li><strong>RCS Communications:</strong> You agree to receive Rich Communication Services (RCS) messages on supported devices. RCS messages may include rich media content such as images, videos, interactive buttons, and location sharing.</li>
+            </div>
+            <p><strong>Types of Communications:</strong> The communications you may receive include:</p>
+            <div class="col-md-12">
+                <li>Account verification and authentication codes</li>
+                <li>Security alerts and account activity notifications</li>
+                <li>Profile match notifications and recommendations</li>
+                <li>Service updates and feature announcements</li>
+                <li>Promotional offers and special deals</li>
+                <li>Customer support responses</li>
+                <li>Important policy updates and legal notices</li>
+            </div>
+            <p><strong>Opt-Out Rights:</strong> You have the right to opt-out of receiving promotional communications at any time. You can do so by:</p>
+            <div class="col-md-12">
+                <li>Sending an email to hello@masihisathi.com requesting to opt-out</li>
+                <li>Following the unsubscribe instructions provided in our messages</li>
+                <li>Updating your communication preferences in your account settings (where available)</li>
+            </div>
+            <p>Please note that certain communications are essential for the proper functioning of our services (such as account verification, security alerts, and important service notifications) and cannot be opted out. By agreeing to our <a href="terms-conditions.php">Terms & Conditions</a> and this Privacy Policy, you acknowledge and consent to receiving these essential communications.</p>
+            <p><strong>Data Security:</strong> We take appropriate measures to protect your contact information and ensure that communications are sent securely. Your phone number and contact details are stored securely and are not shared with third parties for marketing purposes without your explicit consent.</p>
+            <hr />
             <h2>Changes</h2>
             <p>Our Privacy Policy may change from time to time. We will not reduce your rights under this Privacy Policy
                 without your explicit consent. We will post any privacy policy changes on this page and, if the changes

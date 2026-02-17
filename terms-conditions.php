@@ -90,6 +90,24 @@
                 about this. We will consider requests to remove links but will have no obligation to do so or to respond
                 directly to you.</p>
             <hr />
+            <h2>Communication Consent</h2>
+            <p>By using our services and providing your contact information, you explicitly agree and consent to receive communications from MasihiSathi.com via the following channels:</p>
+            <div class="col-md-12">
+                <li><strong>SMS (Short Message Service):</strong> You agree to receive text messages on the mobile number provided by you. Standard messaging rates may apply as per your mobile carrier.</li>
+                <li><strong>WhatsApp:</strong> You consent to receive messages, notifications, and updates via WhatsApp on the phone number you have provided.</li>
+                <li><strong>RCS (Rich Communication Services):</strong> You agree to receive rich media messages, including text, images, and interactive content via RCS on supported devices.</li>
+            </div>
+            <p>These communications may include but are not limited to:</p>
+            <div class="col-md-12">
+                <li>Account verification and security notifications</li>
+                <li>Profile updates and match notifications</li>
+                <li>Service updates and promotional offers</li>
+                <li>Important announcements and policy changes</li>
+                <li>Customer support and service-related messages</li>
+            </div>
+            <p>You can opt-out of receiving promotional communications at any time by contacting us at hello@masihisathi.com or by following the unsubscribe instructions provided in our messages. However, you acknowledge that certain transactional and service-related communications are essential for the proper functioning of our services and cannot be opted out.</p>
+            <p>By agreeing to these Terms & Conditions, you confirm that you have read and understood our <a href="privacy-policy.php">Privacy Policy</a> and consent to the communication methods described above.</p>
+            <hr />
             <h2>Disclaimer</h2>
             <p>To the maximum extent permitted by applicable law, we exclude all representations, warranties and
                 conditions

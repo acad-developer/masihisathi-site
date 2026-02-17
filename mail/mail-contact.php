@@ -12,18 +12,20 @@
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $phone = trim($_POST["phone"]);
         $message = trim($_POST["message"]);
+        $consent = isset($_POST["consent"]) ? $_POST["consent"] : "";
         
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone)) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($consent)) {
             # Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Please complete the form and try again.";
+            echo "Please complete all required fields including the consent checkbox and try again.";
             exit;
         }
         
         # Mail Content
         $cform = "Name: $name\n";
-        $cform .= "Email: $email\n\n";
+        $cform .= "Email: $email\n";
         $cform .= "Phone: $phone\n";
+        $cform .= "Consent Given: Yes\n";
         $cform .= "Message:\n$message\n";
 
         # email headers.

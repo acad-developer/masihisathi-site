@@ -32,6 +32,214 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Consent Modal Styles -->
+    <style>
+        .consent-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        .consent-modal-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(5px);
+        }
+        
+        .consent-modal-content {
+            position: relative;
+            background: #fff;
+            border-radius: 12px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            z-index: 10000;
+            animation: slideUp 0.3s ease-out;
+        }
+        
+        .consent-modal-header {
+            padding: 25px 30px;
+            border-bottom: 2px solid #f6af04;
+            background: linear-gradient(135deg, #f6af04 0%, #f9c74f 100%);
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .consent-modal-header h3 {
+            margin: 0;
+            color: #fff;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        
+        .consent-modal-body {
+            padding: 30px;
+        }
+        
+        .consent-modal-body p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+            color: #333;
+            font-size: 15px;
+        }
+        
+        .consent-modal-body ul {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        .consent-modal-body ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .consent-modal-body a {
+            color: #f6af04;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .consent-modal-body a:hover {
+            color: #d99a00;
+            text-decoration: underline;
+        }
+        
+        .consent-checkbox {
+            margin-top: 25px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border: 2px solid #e9ecef;
+        }
+        
+        .consent-checkbox label {
+            display: flex;
+            align-items: flex-start;
+            cursor: pointer;
+            margin: 0;
+        }
+        
+        .consent-checkbox input[type="checkbox"] {
+            margin-right: 12px;
+            margin-top: 3px;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+        
+        .consent-checkbox span {
+            line-height: 1.5;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .consent-modal-footer {
+            padding: 20px 30px;
+            border-top: 1px solid #e9ecef;
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            background: #f8f9fa;
+            border-radius: 0 0 12px 12px;
+        }
+        
+        .consent-modal-footer .btn {
+            padding: 10px 25px;
+            font-size: 16px;
+            font-weight: 500;
+            border-radius: 6px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .consent-modal-footer .btn-secondary {
+            background: #6c757d;
+            color: #fff;
+        }
+        
+        .consent-modal-footer .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .consent-modal-footer .btn-primary {
+            background: #f6af04;
+            color: #fff;
+        }
+        
+        .consent-modal-footer .btn-primary:hover {
+            background: #d99a00;
+        }
+        
+        .consent-modal-footer .btn-primary:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .consent-modal-content {
+                width: 95%;
+                max-height: 95vh;
+            }
+            
+            .consent-modal-header {
+                padding: 20px;
+            }
+            
+            .consent-modal-header h3 {
+                font-size: 20px;
+            }
+            
+            .consent-modal-body {
+                padding: 20px;
+            }
+            
+            .consent-modal-footer {
+                padding: 15px 20px;
+                flex-direction: column;
+            }
+            
+            .consent-modal-footer .btn {
+                width: 100%;
+            }
+        }
+    </style>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -72,6 +280,37 @@ $footermenuItems = $menuItems + [
     </div>
     <div class="pop-bg"></div>
     <!-- END PRELOADER -->
+
+    <!-- CONSENT MODAL -->
+    <div id="consentModal" class="consent-modal" style="display: none;">
+        <div class="consent-modal-overlay"></div>
+        <div class="consent-modal-content">
+            <div class="consent-modal-header">
+                <h3>Privacy & Communication Consent</h3>
+            </div>
+            <div class="consent-modal-body">
+                <p>Welcome to MasihiSathi.com! We value your privacy and want to ensure you understand how we communicate with you.</p>
+                <p>By using our services, you agree to:</p>
+                <ul>
+                    <li>Our <a href="terms-conditions.php" target="_blank">Terms & Conditions</a></li>
+                    <li>Our <a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
+                    <li>Receive communications via <strong>SMS, WhatsApp, and RCS messages</strong> for account verification, match notifications, service updates, and promotional content</li>
+                </ul>
+                <p>You can opt-out of promotional communications at any time by contacting us at <a href="mailto:hello@masihisathi.com">hello@masihisathi.com</a>.</p>
+                <div class="consent-checkbox">
+                    <label>
+                        <input type="checkbox" id="consentCheckbox" required>
+                        <span>I agree to the Terms & Conditions and Privacy Policy, and I consent to receive communications via SMS, WhatsApp, and RCS messages.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="consent-modal-footer">
+                <button type="button" class="btn btn-secondary" id="declineConsent">Decline</button>
+                <button type="button" class="btn btn-primary" id="acceptConsent">I Agree</button>
+            </div>
+        </div>
+    </div>
+    <!-- END CONSENT MODAL -->
 
 
     <!-- TOP MENU -->

@@ -13,20 +13,22 @@
         $phone = trim($_POST["phone"]);
         $no_of_gusts = trim($_POST["no_of_gusts"]);
         $meal_pref = trim($_POST["meal_pref"]);
+        $consent = isset($_POST["consent"]) ? $_POST["consent"] : "";
         
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone)) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($phone) OR empty($consent)) {
             # Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Please complete the form and try again.";
+            echo "Please complete all required fields including the consent checkbox and try again.";
             exit;
         }
         
         # Mail Content
         $cform = "Name: $name\n";
-        $cform .= "Email: $email\n\n";
+        $cform .= "Email: $email\n";
         $cform .= "Phone: $phone\n";
         $cform .= "No of guests: $no_of_gusts\n";
         $cform .= "Meal Preferences: $meal_pref\n";
+        $cform .= "Consent Given: Yes\n";
 
         # email headers.
         $headers = "From: $name <$email>";
