@@ -1,7 +1,36 @@
 <?php
 include("header.php");
 ?>
-
+    <!-- CONSENT MODAL -->
+    <div id="consentModal" class="consent-modal" style="display: none;">
+        <div class="consent-modal-overlay"></div>
+        <div class="consent-modal-content">
+            <div class="consent-modal-header">
+                <h3>Privacy & Communication Consent</h3>
+            </div>
+            <div class="consent-modal-body">
+                <p>Welcome to MasihiSathi.com! We value your privacy and want to ensure you understand how we communicate with you.</p>
+                <p>By using our services, you agree to:</p>
+                <ul>
+                    <li>Our <a href="terms-conditions.php" target="_blank">Terms & Conditions</a></li>
+                    <li>Our <a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
+                    <li>Receive communications via <strong>SMS, WhatsApp, and RCS messages</strong> for account verification, match notifications, service updates, and promotional content</li>
+                </ul>
+                <p>You can opt-out of promotional communications at any time by contacting us at <a href="mailto:hello@masihisathi.com">hello@masihisathi.com</a>.</p>
+                <div class="consent-checkbox">
+                    <label>
+                        <input type="checkbox" id="consentCheckbox" required>
+                        <span>I agree to the Terms & Conditions and Privacy Policy, and I consent to receive communications via SMS, WhatsApp, and RCS messages.</span>
+                    </label>
+                </div>
+            </div>
+            <div class="consent-modal-footer">
+                <button type="button" class="btn btn-secondary" id="declineConsent">Decline</button>
+                <button type="button" class="btn btn-primary" id="acceptConsent">I Agree</button>
+            </div>
+        </div>
+    </div>
+    <!-- END CONSENT MODAL -->
 
 <!-- BANNER & SEARCH -->
 <section>
@@ -407,5 +436,101 @@ include("header.php");
     </div>
 </section>
 <!-- END -->
+<script>
+(function() {
+    'use strict';
+    
+    // Check if user has already given consent
+    function hasConsent() {
+        return localStorage.getItem('masihisathi_consent') === 'accepted';
+    }
+    
+    // Show consent modal
+    function showConsentModal() {
+        var modal = document.getElementById('consentModal');
+        if (modal) {
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden'; // Prevent background scrolling
+        }
+    }
+    
+    // Hide consent modal
+    function hideConsentModal() {
+        var modal = document.getElementById('consentModal');
+        if (modal) {
+            modal.style.display = 'none';
+            document.body.style.overflow = ''; // Restore scrolling
+        }
+    }
+    
+    // Save consent
+    function saveConsent() {
+        localStorage.setItem('masihisathi_consent', 'accepted');
+        localStorage.setItem('masihisathi_consent_date', new Date().toISOString());
+        hideConsentModal();
+    }
+    
+    // Initialize consent modal
+    function initConsentModal() {
+        // Check if consent has been given
+        if (!hasConsent()) {
+            // Wait for page to load, then show modal
+            setTimeout(function() {
+                showConsentModal();
+            }, 500); // Small delay for better UX
+        }
+        
+        // Accept button handler
+        var acceptBtn = document.getElementById('acceptConsent');
+        if (acceptBtn) {
+            acceptBtn.addEventListener('click', function() {
+                var checkbox = document.getElementById('consentCheckbox');
+                if (checkbox && checkbox.checked) {
+                    saveConsent();
+                } else {
+                    alert('Please check the consent checkbox to continue.');
+                }
+            });
+        }
+        
+        // Decline button handler
+        var declineBtn = document.getElementById('declineConsent');
+        if (declineBtn) {
+            declineBtn.addEventListener('click', function() {
+                if (confirm('By declining, you may not be able to access all features of our website. Are you sure you want to decline?')) {
+                    localStorage.setItem('masihisathi_consent', 'declined');
+                    localStorage.setItem('masihisathi_consent_date', new Date().toISOString());
+                    hideConsentModal();
+                }
+            });
+        }
+        
+        // Enable/disable accept button based on checkbox state
+        var checkbox = document.getElementById('consentCheckbox');
+        if (checkbox && acceptBtn) {
+            checkbox.addEventListener('change', function() {
+                acceptBtn.disabled = !this.checked;
+            });
+            // Initially disable accept button
+            acceptBtn.disabled = true;
+        }
+        
+        // Prevent closing modal by clicking overlay (user must make a choice)
+        var overlay = document.querySelector('.consent-modal-overlay');
+        if (overlay) {
+            overlay.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        }
+    }
+    
+    // Run when DOM is ready
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initConsentModal);
+    } else {
+        initConsentModal();
+    }
+})();
+</script>
 
 <?php include("footer.php"); ?>

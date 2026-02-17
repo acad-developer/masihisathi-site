@@ -281,36 +281,7 @@ $footermenuItems = $menuItems + [
     <div class="pop-bg"></div>
     <!-- END PRELOADER -->
 
-    <!-- CONSENT MODAL -->
-    <div id="consentModal" class="consent-modal" style="display: none;">
-        <div class="consent-modal-overlay"></div>
-        <div class="consent-modal-content">
-            <div class="consent-modal-header">
-                <h3>Privacy & Communication Consent</h3>
-            </div>
-            <div class="consent-modal-body">
-                <p>Welcome to MasihiSathi.com! We value your privacy and want to ensure you understand how we communicate with you.</p>
-                <p>By using our services, you agree to:</p>
-                <ul>
-                    <li>Our <a href="terms-conditions.php" target="_blank">Terms & Conditions</a></li>
-                    <li>Our <a href="privacy-policy.php" target="_blank">Privacy Policy</a></li>
-                    <li>Receive communications via <strong>SMS, WhatsApp, and RCS messages</strong> for account verification, match notifications, service updates, and promotional content</li>
-                </ul>
-                <p>You can opt-out of promotional communications at any time by contacting us at <a href="mailto:hello@masihisathi.com">hello@masihisathi.com</a>.</p>
-                <div class="consent-checkbox">
-                    <label>
-                        <input type="checkbox" id="consentCheckbox" required>
-                        <span>I agree to the Terms & Conditions and Privacy Policy, and I consent to receive communications via SMS, WhatsApp, and RCS messages.</span>
-                    </label>
-                </div>
-            </div>
-            <div class="consent-modal-footer">
-                <button type="button" class="btn btn-secondary" id="declineConsent">Decline</button>
-                <button type="button" class="btn btn-primary" id="acceptConsent">I Agree</button>
-            </div>
-        </div>
-    </div>
-    <!-- END CONSENT MODAL -->
+
 
 
     <!-- TOP MENU -->
