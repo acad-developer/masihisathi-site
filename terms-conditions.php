@@ -122,6 +122,141 @@
                 <li>limit any of our or your liabilities in any way that is not permitted under applicable law; or</li>
                 <li>exclude any of our or your liabilities that may not be excluded under applicable law.</li>
             </div>
+            <hr />
+
+            <h2>MasihiSathi Patreon</h2>
+            <p>MasihiSathi may offer optional monthly plans known as “MasihiSathi Patreon.”</p>
+            <p>MasihiSathi Patreon is intended for users who voluntarily choose to financially support the continued operation, development, maintenance, promotion, staffing, technology, and growth of the MasihiSathi Platform.</p>
+            <p>Participation in MasihiSathi Patreon is completely voluntary.</p>
+            <p>Users are not required to become a MasihiSathi Patreon member in order to create a standard account or use features that MasihiSathi makes available free of charge.</p>
+            <p>Depending on the selected Patreon plan, users may receive certain Platform benefits, including MasihiSathi Coins.</p>
+            <p>The number of Coins and benefits associated with each plan will be displayed before purchase and may vary between plans.</p>
+            <hr />
+
+            <h2>Recurring Monthly Payments</h2>
+            <p>Where MasihiSathi Patreon is offered as an auto-renewing subscription, the selected subscription fee will be charged at the applicable billing interval until the subscription is cancelled.</p>
+            <p>By subscribing, you authorize the applicable payment provider, app store, or payment gateway to process recurring payments according to the plan selected by you.</p>
+            <p>Subscription pricing, applicable taxes, billing frequency, and benefits will be shown before confirmation of the purchase.</p>
+            <p>Users may cancel future renewal of their subscription through the method made available by the applicable billing provider.</p>
+            <p>Cancellation stops future renewals but does not ordinarily reverse a payment that has already been successfully processed, except where a refund is required under applicable law or applicable app-store/payment-provider rules.</p>
+            <hr />
+
+            <h2>MasihiSathi Coins</h2>
+            <p>MasihiSathi may operate an internal digital credit system called “MasihiSathi Coins” or “Coins.”</p>
+            <p>Coins may be:</p>
+            <div class="col-md-12">
+                <li>included as benefits under MasihiSathi Patreon plans;</li>
+                <li>purchased where such purchases are made available;</li>
+                <li>awarded as part of promotions, rewards, or special campaigns; or</li>
+                <li>credited by MasihiSathi at its discretion.</li>
+            </div>
+            <p>Coins can be used only for eligible services and features available within the MasihiSathi Platform.</p>
+            <p>Coins are not legal tender, electronic money, cryptocurrency, bank deposits, securities, or financial investments.</p>
+            <p>Coins cannot be withdrawn as cash.</p>
+            <p>Coins cannot ordinarily be exchanged for money or transferred outside the Platform.</p>
+            <p>Coins have no monetary value outside MasihiSathi.</p>
+            <hr />
+
+            <h2>Use of Coins</h2>
+            <p>Depending on features available at a particular time, Coins may be used for services including:</p>
+            <div class="col-md-12">
+                <li><strong>Profile Unlocking:</strong> Coins may be redeemed to unlock eligible information or features associated with another user’s profile.</li>
+                <li><strong>Profile Promotion:</strong> Coins may be redeemed to promote a user’s profile and potentially provide increased visibility within the Platform.</li>
+                <li><strong>Profile Highlighting:</strong> Coins may be redeemed to highlight or otherwise visually distinguish a user’s profile.</li>
+                <li>Other Coin-based features may be introduced from time to time.</li>
+            </div>
+            <p>The number of Coins required for each feature will be displayed in the Platform and may change from time to time.</p>
+            <hr />
+
+            <h2>Profile Unlocking</h2>
+            <p>When you redeem Coins to unlock a profile, the applicable number of Coins will be deducted from your Coin balance.</p>
+            <p>An unlock gives access only to the information or functionality that MasihiSathi makes available through that particular unlock.</p>
+            <p>Unlocking another user’s profile does not guarantee:</p>
+            <div class="col-md-12">
+                <li>that the person will respond;</li>
+                <li>that the person will be interested in you;</li>
+                <li>that their contact details will remain active;</li>
+                <li>that the profile owner will continue using MasihiSathi;</li>
+                <li>that the information provided by the user is completely accurate; or</li>
+                <li>that any relationship or marriage will result.</li>
+            </div>
+            <p>Users are responsible for exercising reasonable caution before communicating with or meeting another user.</p>
+            <hr />
+
+            <h2>Profile Promotion and Highlighting</h2>
+            <p>Users may use Coins or other permitted payment methods to promote or highlight their profiles where these features are available.</p>
+            <p>Promotion or highlighting may increase the visibility or presentation of a profile but does not guarantee any particular number of views, responses, matches, enquiries, communications, or marriage proposals.</p>
+            <p>Results can vary depending on user activity, location, preferences, profile quality, search criteria, and other factors.</p>
+            <hr />
+
+            <h2>Coin Deductions</h2>
+            <p>When a user confirms a Coin-based transaction, the required number of Coins will be deducted from the user’s balance.</p>
+            <p>Users should carefully review the number of Coins required before confirming a transaction.</p>
+            <p>Once Coins have been successfully redeemed for a service that has been delivered or activated, the Coins will generally not be returned, except where required by applicable law or where MasihiSathi determines that a technical error attributable to the Platform prevented delivery of the purchased feature.</p>
+            <hr />
+
+            <h2>No Cash Redemption</h2>
+            <p>Coins cannot be:</p>
+            <div class="col-md-12">
+                <li>redeemed for cash;</li>
+                <li>transferred to a bank account;</li>
+                <li>exchanged for cryptocurrency;</li>
+                <li>sold to another user;</li>
+                <li>transferred between accounts unless MasihiSathi specifically provides such functionality; or</li>
+                <li>used outside the MasihiSathi Platform.</li>
+            </div>
+            <hr />
+
+            <h2>Refund and Cancellation Policy</h2>
+            <p>Payments successfully processed for MasihiSathi Patreon subscriptions, Coins, profile promotions, profile highlights, profile unlocks, or other digital services are generally non-refundable once the applicable digital service or benefit has been supplied, activated, credited, or consumed, subject to applicable law.</p>
+            <p>Users should review all payment details before confirming a transaction.</p>
+            <p>Cancelling a recurring MasihiSathi Patreon subscription prevents future renewals according to the applicable billing provider’s cancellation rules. Cancellation does not automatically entitle the user to a refund for a billing period that has already begun or a benefit already supplied.</p>
+            <p>Where a purchase is made through the Apple App Store, Google Play, or another third-party billing provider, refunds and cancellations may also be governed by that provider’s applicable policies and mandatory requirements.</p>
+            <p>Nothing in these Terms excludes or restricts any refund, remedy, or consumer right that cannot legally be excluded under applicable law.</p>
+            <hr />
+
+            <h2>Coin Expiry</h2>
+            <p>MasihiSathi may establish validity or expiry periods for certain categories of Coins, including promotional or bonus Coins.</p>
+            <p>Where an expiry period applies, it will be communicated through the Platform or relevant offer terms.</p>
+            <p>MasihiSathi may distinguish between purchased Coins, subscription-benefit Coins, and promotional/bonus Coins.</p>
+            <hr />
+
+            <h2>Changes to Patreon Plans and Coin Values</h2>
+            <p>MasihiSathi may modify:</p>
+            <div class="col-md-12">
+                <li>Patreon plan prices;</li>
+                <li>the number of Coins provided with a plan;</li>
+                <li>Coin redemption requirements;</li>
+                <li>promotional benefits;</li>
+                <li>profile promotion costs;</li>
+                <li>profile highlighting costs; and</li>
+                <li>other Platform features.</li>
+            </div>
+            <p>Changes will apply prospectively in accordance with applicable law and app-store/payment-provider requirements.</p>
+            <p>Where required, users will be notified before changes affecting recurring subscription pricing take effect.</p>
+            <hr />
+
+            <h2>Account Termination and Unused Coins</h2>
+            <p>Users may stop using MasihiSathi at any time.</p>
+            <p>If an account is terminated for serious violations of these Terms, fraud, misuse, illegal activity, harassment, or manipulation of the Platform, access to remaining Coins and Platform benefits may be restricted or forfeited to the extent permitted by applicable law.</p>
+            <p>Users should use available Coins before voluntarily deleting their account where applicable, because account deletion may result in loss of unused Platform benefits.</p>
+            <hr />
+
+            <h2>MasihiSathi Patreon and Coins</h2>
+            <p>We may maintain records concerning:</p>
+            <div class="col-md-12">
+                <li>Patreon plan;</li>
+                <li>subscription status;</li>
+                <li>Coins credited;</li>
+                <li>Coins purchased;</li>
+                <li>Coins redeemed;</li>
+                <li>profile unlock transactions;</li>
+                <li>profile promotion transactions;</li>
+                <li>profile highlighting transactions;</li>
+                <li>promotional Coins; and</li>
+                <li>related transaction history.</li>
+            </div>
+            <p>These records may be used for account administration, transaction verification, fraud prevention, customer support, dispute handling, and compliance.</p>
         </div>
     </div>
 </section>
