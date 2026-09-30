@@ -9,13 +9,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="theme-color" content="#f6af04">
     <meta name="description" content="MasihiSathi is a unique matrimonial platform designed exclusively for Christians">
-    <meta name="keywords" content="Matrimony, Matrimonial, Marriage, Wedding, Matchmaking, Bride, Groom, Matrimony Services, Matrimonial Site, Online Matrimony, Christian Matrimony, Christian Marriage, Christian Wedding, Christian Matchmaking, Trusted Matrimony, Premium Matrimony, Matrimony Website, Marriage Services, Matrimonial Services, Matrimony Portal, Matrimony Platform">
+    <meta name="keywords"
+        content="Matrimony, Matrimonial, Marriage, Wedding, Matchmaking, Bride, Groom, Matrimony Services, Matrimonial Site, Online Matrimony, Christian Matrimony, Christian Marriage, Christian Wedding, Christian Matchmaking, Trusted Matrimony, Premium Matrimony, Matrimony Website, Marriage Services, Matrimonial Services, Matrimony Portal, Matrimony Platform">
     <!--== FAV ICON(BROWSER TAB ICON) ==-->
     <meta name="author" content="MasihiSathi">
 
     <!-- Open Graph Metadata -->
     <meta property="og:title" content="MasihiSathi - Christian Matrimony Platform">
-    <meta property="og:description" content="MasihiSathi is a unique matrimonial platform designed exclusively for Christians">
+    <meta property="og:description"
+        content="MasihiSathi is a unique matrimonial platform designed exclusively for Christians">
     <meta property="og:image" content="https://www.masihisathi.com/images/MS images/homelogo.png">
     <meta property="og:url" content="https://www.masihisathi.com">
     <meta property="og:type" content="website">
@@ -23,7 +25,8 @@
     <!-- Twitter Card Metadata -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="MasihiSathi - Christian Matrimony Platform">
-    <meta name="twitter:description" content="MasihiSathi is a unique matrimonial platform designed exclusively for Christians">
+    <meta name="twitter:description"
+        content="MasihiSathi is a unique matrimonial platform designed exclusively for Christians">
     <meta name="twitter:image" content="https://www.masihisathi.com/images/MS images/homelogo.png">
     <meta name="twitter:site" content="@MasihiSathi">
     <link rel="shortcut icon" href="images/MS images/homelogo.png" type="image/x-icon">
@@ -32,7 +35,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
-    
+
     <!-- Consent Modal Styles -->
     <style>
         .consent-modal {
@@ -47,7 +50,7 @@
             justify-content: center;
             animation: fadeIn 0.3s ease-in-out;
         }
-        
+
         .consent-modal-overlay {
             position: absolute;
             top: 0;
@@ -57,7 +60,7 @@
             background-color: rgba(0, 0, 0, 0.7);
             backdrop-filter: blur(5px);
         }
-        
+
         .consent-modal-content {
             position: relative;
             background: #fff;
@@ -70,55 +73,55 @@
             z-index: 10000;
             animation: slideUp 0.3s ease-out;
         }
-        
+
         .consent-modal-header {
             padding: 25px 30px;
             border-bottom: 2px solid #f6af04;
             background: linear-gradient(135deg, #f6af04 0%, #f9c74f 100%);
             border-radius: 12px 12px 0 0;
         }
-        
+
         .consent-modal-header h3 {
             margin: 0;
             color: #fff;
             font-size: 24px;
             font-weight: 600;
         }
-        
+
         .consent-modal-body {
             padding: 30px;
         }
-        
+
         .consent-modal-body p {
             margin-bottom: 15px;
             line-height: 1.6;
             color: #333;
             font-size: 15px;
         }
-        
+
         .consent-modal-body ul {
             margin: 15px 0;
             padding-left: 25px;
         }
-        
+
         .consent-modal-body ul li {
             margin-bottom: 10px;
             line-height: 1.6;
             color: #555;
         }
-        
+
         .consent-modal-body a {
             color: #f6af04;
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
         }
-        
+
         .consent-modal-body a:hover {
             color: #d99a00;
             text-decoration: underline;
         }
-        
+
         .consent-checkbox {
             margin-top: 25px;
             padding: 15px;
@@ -126,14 +129,14 @@
             border-radius: 8px;
             border: 2px solid #e9ecef;
         }
-        
+
         .consent-checkbox label {
             display: flex;
             align-items: flex-start;
             cursor: pointer;
             margin: 0;
         }
-        
+
         .consent-checkbox input[type="checkbox"] {
             margin-right: 12px;
             margin-top: 3px;
@@ -142,13 +145,13 @@
             cursor: pointer;
             flex-shrink: 0;
         }
-        
+
         .consent-checkbox span {
             line-height: 1.5;
             color: #333;
             font-size: 14px;
         }
-        
+
         .consent-modal-footer {
             padding: 20px 30px;
             border-top: 1px solid #e9ecef;
@@ -158,7 +161,7 @@
             background: #f8f9fa;
             border-radius: 0 0 12px 12px;
         }
-        
+
         .consent-modal-footer .btn {
             padding: 10px 25px;
             font-size: 16px;
@@ -168,73 +171,84 @@
             border: none;
             cursor: pointer;
         }
-        
+
         .consent-modal-footer .btn-secondary {
             background: #6c757d;
             color: #fff;
         }
-        
+
         .consent-modal-footer .btn-secondary:hover {
             background: #5a6268;
         }
-        
+
         .consent-modal-footer .btn-primary {
             background: #f6af04;
             color: #fff;
         }
-        
+
         .consent-modal-footer .btn-primary:hover {
             background: #d99a00;
         }
-        
+
         .consent-modal-footer .btn-primary:disabled {
             background: #ccc;
             cursor: not-allowed;
         }
-        
+
+        .head-top ul li a {
+            color: rgb(234, 208, 176);
+            font-size: 11px;
+            font-weight: 500;
+            border-right: 1px solid rgba(255, 255, 255, 0.19);
+            padding: 10px 6px;
+            text-transform: uppercase;
+        }
+
         @keyframes fadeIn {
             from {
                 opacity: 0;
             }
+
             to {
                 opacity: 1;
             }
         }
-        
+
         @keyframes slideUp {
             from {
                 transform: translateY(50px);
                 opacity: 0;
             }
+
             to {
                 transform: translateY(0);
                 opacity: 1;
             }
         }
-        
+
         @media (max-width: 768px) {
             .consent-modal-content {
                 width: 95%;
                 max-height: 95vh;
             }
-            
+
             .consent-modal-header {
                 padding: 20px;
             }
-            
+
             .consent-modal-header h3 {
                 font-size: 20px;
             }
-            
+
             .consent-modal-body {
                 padding: 20px;
             }
-            
+
             .consent-modal-footer {
                 padding: 15px 20px;
                 flex-direction: column;
             }
-            
+
             .consent-modal-footer .btn {
                 width: 100%;
             }
@@ -253,7 +267,7 @@
 $menuItems = [
     'Home' => 'index.php',
     'Pricing plans' => 'plans.php',
-    "Our Products & Services"=> 'products-services.php',
+    "Our Products & Services" => 'products-services.php',
     'Contact' => 'contact.php',
     'About' => 'about.php',
     'FAQ' => 'faq.php',
