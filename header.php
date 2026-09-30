@@ -271,7 +271,7 @@ $menuItems = [
     'Contact' => 'contact.php',
     'About' => 'about.php',
     'FAQ' => 'faq.php',
-    'Download App' => 'download.php',
+    'Download' => 'download.php',
 ];
 ?>
 <?php
